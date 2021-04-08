@@ -22,7 +22,7 @@ endif ()
 # Try for OpenCV 4.X, but settle for whatever is installed
 find_package(OpenCV 4 QUIET)
 if (NOT OpenCV_FOUND)
-  find_package(OpenCV REQUIRED PATH ~/ros2_ws)
+  find_package(OpenCV REQUIRED)
 endif ()
 message(STATUS "Found OpenCV version ${OpenCV_VERSION}")
 
