@@ -1,0 +1,6 @@
+/opencv_cam:
+  ros__parameters:
+    file: False
+    filename: 'my_camera.MOV'
+    camera_info_path: '/home/sahaj/calib/dellxps_camera_info.yaml'
+    camera_frame_id: 'my_camera'
