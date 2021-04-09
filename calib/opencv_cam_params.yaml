@@ -2,5 +2,5 @@
   ros__parameters:
     file: False
     filename: 'my_camera.MOV'
-    camera_info_path: '~/ros2/dev_ws/src/opencv_cam/calib/dellxps_camera_info.yaml'
+    camera_info_path: '/root/ros2/dev_ws/src/opencv_cam/calib/dellxps_camera_info.yaml'
     camera_frame_id: 'my_camera'
